@@ -1,0 +1,15 @@
+import React from "react";
+
+    function Person({id, image, name, age}) {
+      return (<li key={id} style={{
+  margin: '.5rem 0 1rem'
+}}>
+              <img src={image} alt={name} style={{
+    width: '200px'
+  }} />
+              <h3>{name}</h3>
+              <p>{age} years old</p>
+            </li>);
+    }
+  
+  
